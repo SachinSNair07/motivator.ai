@@ -27,5 +27,5 @@ It’s built to keep your energy high and remind you that every day is a new cha
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/motivator-ai.git
+   git clone https://github.com/sachinsnair07/motivator-ai.git
    cd motivator-ai
