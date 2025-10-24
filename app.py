@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 def get_random_quote():
     with open("quote.txt", "r", encoding="utf-8") as f:
-        quotes = f.readlines()
-    return random.choice(quotes).strip()
+        quote = f.readlines()
+    return random.choice(quote).strip()
 
 @app.route("/")
 def home():
@@ -15,6 +15,7 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
