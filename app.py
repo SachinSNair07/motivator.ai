@@ -4,7 +4,7 @@ import random
 app = Flask(__name__)
 
 def get_random_quote():
-    with open("quotes.txt", "r", encoding="utf-8") as f:
+    with open("quote.txt", "r", encoding="utf-8") as f:
         quotes = f.readlines()
     return random.choice(quotes).strip()
 
@@ -15,6 +15,7 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
