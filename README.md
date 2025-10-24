@@ -1,11 +1,31 @@
-# Motivator AI 💬  
-A simple Python-based AI that gives motivational quotes when you’re feeling low.  
+# 💬 Motivator AI
 
-## Features
-- Generates random motivational quotes  
-- Simple Flask web interface  
-- Uses OpenAI or local model  
+Motivator AI is a simple and inspiring Python-based application that gives you motivational quotes whenever you feel low or unproductive.  
+It’s built to keep your energy high and remind you that every day is a new chance to grow 💫
 
-## How to run
-1. `pip install -r requirements.txt`  
-2. `python app.py`
+---
+
+## 🚀 Features
+
+- 🧠 AI-powered motivational messages  
+- 🎤 Voice output (optional – with text-to-speech)  
+- 🌐 Simple Flask web interface or command-line version  
+- 💾 Stores your favorite quotes locally  
+- 🔁 “Daily Motivation Mode” – gives a quote every morning automatically  
+
+---
+
+## 🧰 Tech Stack
+
+- **Language:** Python 3  
+- **Libraries:** Flask, requests, random, pyttsx3 (for voice), OpenAI (optional)  
+- **Platform:** GitHub + Replit / Local Machine  
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/motivator-ai.git
+   cd motivator-ai
