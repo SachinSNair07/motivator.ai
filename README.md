@@ -23,9 +23,4 @@ It’s built to keep your energy high and remind you that every day is a new cha
 
 ---
 
-## ⚙️ Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/sachinsnair07/motivator-ai.git
-   cd motivator-ai
+## WEBSITE LINK :https://motivator-ai.onrender.com/
