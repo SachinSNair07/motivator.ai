@@ -16,6 +16,14 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+def load_quotes():
+    try:
+        with open("quotes.txt", "r", encoding="utf-8") as file:
+            return [line.strip() for line in file.readlines()]
+    except FileNotFoundError:
+        return ["Keep going, your hard work will pay off!"]
+
+
 
 
 
